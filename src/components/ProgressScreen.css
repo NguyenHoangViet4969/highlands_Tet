@@ -1,0 +1,35 @@
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(to bottom, #007FFF, #FFF04D);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .progress-container {
+    width: 80%;
+    height: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #FFD700;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  

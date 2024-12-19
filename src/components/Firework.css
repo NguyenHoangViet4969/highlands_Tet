@@ -1,0 +1,68 @@
+.firework-container {
+  position: relative;
+  height: 100vh;
+  background-color: #DC392F; /* Màu đỏ tươi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.message {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.1); /* Nền mờ */
+  padding: 20px 30px;
+  border-radius: 15px; /* Bo góc */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Hiệu ứng ánh sáng */
+}
+
+.message h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #ffd700; /* Vàng đồng */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Đổ bóng chữ */
+}
+
+.message p {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Đổ bóng nhẹ */
+}
+
+.gift-message {
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 18px;
+  color: #fff;
+}
+
+.download-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #ffd700;
+  color: #DC392F;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: #ffcc33;
+}
